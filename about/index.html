@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"fnuu.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="关于我 | About Me                                       tailwind.config &#x3D; {             theme: {                 extend: {                     fontFamily: {                         serif">
+<meta property="og:type" content="website">
+<meta property="og:title" content="灰不溜秋">
+<meta property="og:url" content="https://fnuu.github.io/about/index.html">
+<meta property="og:site_name" content="灰不溜秋">
+<meta property="og:description" content="关于我 | About Me                                       tailwind.config &#x3D; {             theme: {                 extend: {                     fontFamily: {                         serif">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop">
+<meta property="article:published_time" content="2026-03-12T07:39:40.522Z">
+<meta property="article:modified_time" content="2026-03-12T07:39:40.522Z">
+<meta property="article:author" content="可啾黑">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop">
+
+<link rel="canonical" href="https://fnuu.github.io/about/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title> | 灰不溜秋
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">灰不溜秋</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 | About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Noto Serif SC"', 'serif'],
+                        sans: ['"Noto Sans SC"', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#222',
+                        secondary: '#555',
+                        accent: '#fc6423',
+                        muted: '#999',
+                        bg: '#f5f5f5',
+                        card: '#ffffff',
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px rgba(0, 0, 0, 0.08)',
+                        'hover': '0 8px 30px rgba(0, 0, 0, 0.12)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.8) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .skill-bar {
+            width: 0;
+            transition: width 1.5s ease-out;
+        }
+        
+        .timeline-line {
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e5e5e5;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            left: 8px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #fc6423;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #fc6423;
+        }
+        
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #fc6423;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="font-sans text-primary antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-serif font-bold tracking-tight hover:text-accent transition-colors">
+                我的名字
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-secondary">
+                <a href="#about" class="nav-link hover:text-primary transition-colors">关于</a>
+                <a href="#skills" class="nav-link hover:text-primary transition-colors">技能</a>
+                <a href="#timeline" class="nav-link hover:text-primary transition-colors">经历</a>
+                <a href="#contact" class="nav-link hover:text-primary transition-colors">联系</a>
+            </div>
+            <button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-6 py-4 space-y-3">
+                <a href="#about" class="block text-secondary hover:text-accent">关于</a>
+                <a href="#skills" class="block text-secondary hover:text-accent">技能</a>
+                <a href="#timeline" class="block text-secondary hover:text-accent">经历</a>
+                <a href="#contact" class="block text-secondary hover:text-accent">联系</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-6">
+        <div class="max-w-4xl mx-auto text-center fade-in-up">
+            <div class="relative inline-block mb-8">
+                <div class="w-32 h-32 rounded-full overflow-hidden shadow-soft border-4 border-white mx-auto hover-lift">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" 
+                         alt="Profile" 
+                         class="w-full h-full object-cover">
+                </div>
+                <div class="absolute bottom-0 right-0 w-8 h-8 bg-green-500 border-4 border-white rounded-full"></div>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-serif font-bold mb-4 text-primary">
+                你好，我是 <span class="text-accent">张三</span>
+            </h1>
+            <p class="text-xl text-secondary font-light mb-8 max-w-2xl mx-auto leading-relaxed">
+                一名热爱创造的全栈开发者 / 设计师 / 摄影爱好者<br>
+                <span class="text-muted text-base">致力于用代码构建美好的数字体验</span>
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact" class="px-8 py-3 bg-primary text-white rounded-full hover:bg-accent transition-all duration-300 shadow-soft hover:shadow-hover transform hover:-translate-y-1">
+                    联系我
+                </a>
+                <a href="#timeline" class="px-8 py-3 border-2 border-primary text-primary rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+                    查看经历
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12 fade-in-up hover-lift">
+                <h2 class="text-2xl font-serif font-bold mb-6 flex items-center">
+                    <span class="w-1 h-8 bg-accent mr-4 rounded-full"></span>
+                    关于我
+                </h2>
+                <div class="prose prose-lg text-secondary leading-relaxed space-y-4">
+                    <p>
+                        我是一名拥有5年经验的全栈开发工程师，专注于构建高性能、可扩展的Web应用。我相信技术应该服务于人，而不仅仅是代码的堆砌。
+                    </p>
+                    <p>
+                        工作之余，我热爱摄影和写作。通过镜头捕捉生活中的美好瞬间，通过文字记录技术成长的点滴。我维护着一个技术博客，分享前端开发、系统架构和效率工具的使用心得。
+                    </p>
+                    <p>
+                        目前，我正在探索人工智能与Web开发的结合点，期待能在这个快速变化的时代创造出更有价值的产品。
+                    </p>
+                </div>
+                
+                <div class="mt-8 grid grid-cols-3 gap-4 text-center">
+                    <div class="p-4 bg-bg rounded-lg">
+                        <div class="text-2xl font-bold text-accent mb-1">5+</div>
+                        <div class="text-sm text-muted">年工作经验</div>
+                    </div>
+                    <div class="p-4 bg-bg rounded-lg">
+                        <div class="text-2xl font-bold text-accent mb-1">50+</div>
+                        <div class="text-sm text-muted">完成项目</div>
+                    </div>
+                    <div class="p-4 bg-bg rounded-lg">
+                        <div class="text-2xl font-bold text-accent mb-1">1k+</div>
+                        <div class="text-sm text-muted">技术博客订阅</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl font-serif font-bold mb-4">专业技能</h2>
+                <p class="text-secondary">持续学习，不断精进的技术栈</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Technical Skills -->
+                <div class="bg-white rounded-2xl shadow-soft p-8 fade-in-up hover-lift">
+                    <h3 class="text-xl font-bold mb-6 flex items-center text-primary">
+                        <i class="fas fa-code mr-3 text-accent"></i>
+                        技术能力
+                    </h3>
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">JavaScript / TypeScript</span>
+                                <span class="text-muted text-sm">95%</span>
+                            </div>
+                            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div class="skill-bar h-full bg-accent rounded-full" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">React / Vue.js</span>
+                                <span class="text-muted text-sm">90%</span>
+                            </div>
+                            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div class="skill-bar h-full bg-accent rounded-full" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">Node.js / Python</span>
+                                <span class="text-muted text-sm">85%</span>
+                            </div>
+                            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div class="skill-bar h-full bg-accent rounded-full" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">CSS / Tailwind</span>
+                                <span class="text-muted text-sm">92%</span>
+                            </div>
+                            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div class="skill-bar h-full bg-accent rounded-full" data-width="92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills & Tools -->
+                <div class="bg-white rounded-2xl shadow-soft p-8 fade-in-up hover-lift" style="transition-delay: 0.1s">
+                    <h3 class="text-xl font-bold mb-6 flex items-center text-primary">
+                        <i class="fas fa-tools mr-3 text-accent"></i>
+                        工具与设计
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fab fa-git-alt text-orange-600 mr-3 text-xl"></i>
+                            <span class="font-medium">Git</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fab fa-docker text-blue-500 mr-3 text-xl"></i>
+                            <span class="font-medium">Docker</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fab fa-figma text-purple-500 mr-3 text-xl"></i>
+                            <span class="font-medium">Figma</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fas fa-database text-green-600 mr-3 text-xl"></i>
+                            <span class="font-medium">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fas fa-cloud text-blue-400 mr-3 text-xl"></i>
+                            <span class="font-medium">AWS</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-bg rounded-lg hover:bg-gray-100 transition-colors cursor-default">
+                            <i class="fas fa-terminal text-gray-700 mr-3 text-xl"></i>
+                            <span class="font-medium">Linux</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 pt-6 border-t border-gray-100">
+                        <h4 class="font-bold mb-3 text-sm text-muted uppercase tracking-wider">语言能力</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-orange-50 text-accent rounded-full text-sm font-medium">中文（母语）</span>
+                            <span class="px-3 py-1 bg-orange-50 text-accent rounded-full text-sm font-medium">英语（流利）</span>
+                            <span class="px-3 py-1 bg-orange-50 text-accent rounded-full text-sm font-medium">日语（基础）</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl font-serif font-bold mb-4">经历时间线</h2>
+                <p class="text-secondary">我的职业成长之路</p>
+            </div>
+
+            <div class="relative space-y-8 pl-8 md:pl-0">
+                <div class="timeline-line hidden md:block" style="left: 50%; transform: translateX(-50%);"></div>
+                
+                <!-- Timeline Item 1 -->
+                <div class="relative md:flex md:justify-between md:items-center fade-in-up group">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="timeline-dot hidden md:block" style="left: 50%; transform: translateX(-50%); z-index: 10;"></div>
+                    <div class="hidden md:block w-5/12"></div>
+                    
+                    <div class="md:w-5/12 bg-white p-6 rounded-xl shadow-soft hover-lift md:text-right md:mr-auto relative">
+                        <div class="md:hidden timeline-dot" style="left: -23px;"></div>
+                        <span class="text-accent font-bold text-sm tracking-wider">2023 - 至今</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">高级前端工程师</h3>
+                        <p class="text-muted text-sm mb-3">某知名互联网公司</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            负责公司核心产品的前端架构设计，带领5人团队完成微前端改造，提升页面加载速度40%。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="relative md:flex md:justify-between md:items-center fade-in-up group">
+                    <div class="hidden md:block w-5/12 bg-white p-6 rounded-xl shadow-soft hover-lift md:text-left md:ml-auto relative">
+                        <span class="text-accent font-bold text-sm tracking-wider">2020 - 2023</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">全栈开发工程师</h3>
+                        <p class="text-muted text-sm mb-3">科技创新初创公司</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            独立完成多个SaaS产品的全栈开发，使用React和Node.js构建高性能应用，服务超过10万用户。
+                        </p>
+                    </div>
+                    <div class="timeline-dot hidden md:block" style="left: 50%; transform: translateX(-50%); z-index: 10;"></div>
+                    <div class="md:hidden w-full bg-white p-6 rounded-xl shadow-soft hover-lift relative mt-8">
+                        <div class="timeline-dot" style="left: -23px;"></div>
+                        <span class="text-accent font-bold text-sm tracking-wider">2020 - 2023</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">全栈开发工程师</h3>
+                        <p class="text-muted text-sm mb-3">科技创新初创公司</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            独立完成多个SaaS产品的全栈开发，使用React和Node.js构建高性能应用，服务超过10万用户。
+                        </p>
+                    </div>
+                    <div class="hidden md:block w-5/12"></div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="relative md:flex md:justify-between md:items-center fade-in-up group">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="timeline-dot hidden md:block" style="left: 50%; transform: translateX(-50%); z-index: 10;"></div>
+                    <div class="hidden md:block w-5/12"></div>
+                    
+                    <div class="md:w-5/12 bg-white p-6 rounded-xl shadow-soft hover-lift md:text-right md:mr-auto relative mt-8 md:mt-0">
+                        <div class="md:hidden timeline-dot" style="left: -23px;"></div>
+                        <span class="text-accent font-bold text-sm tracking-wider">2018 - 2020</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">初级前端开发</h3>
+                        <p class="text-muted text-sm mb-3">数字营销代理商</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            参与多个品牌官网的开发，掌握HTML5/CSS3/JavaScript核心技能，培养了良好的代码规范意识。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="relative md:flex md:justify-between md:items-center fade-in-up group">
+                    <div class="hidden md:block w-5/12 bg-white p-6 rounded-xl shadow-soft hover-lift md:text-left md:ml-auto relative">
+                        <span class="text-accent font-bold text-sm tracking-wider">2014 - 2018</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">计算机科学学士</h3>
+                        <p class="text-muted text-sm mb-3">某某大学</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            主修软件工程，辅修数字媒体设计。在校期间获得优秀毕业生称号，并建立了对前端开发的浓厚兴趣。
+                        </p>
+                    </div>
+                    <div class="timeline-dot hidden md:block" style="left: 50%; transform: translateX(-50%); z-index: 10;"></div>
+                    <div class="md:hidden w-full bg-white p-6 rounded-xl shadow-soft hover-lift relative mt-8">
+                        <div class="timeline-dot" style="left: -23px;"></div>
+                        <span class="text-accent font-bold text-sm tracking-wider">2014 - 2018</span>
+                        <h3 class="text-lg font-bold mt-2 mb-1">计算机科学学士</h3>
+                        <p class="text-muted text-sm mb-3">某某大学</p>
+                        <p class="text-secondary text-sm leading-relaxed">
+                            主修软件工程，辅修数字媒体设计。在校期间获得优秀毕业生称号，并建立了对前端开发的浓厚兴趣。
+                        </p>
+                    </div>
+                    <div class="hidden md:block w-5/12"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 mb-16">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-primary text-white rounded-2xl shadow-soft p-8 md:p-12 fade-in-up relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-accent rounded-full opacity-10 transform translate-x-1/3 -translate-y-1/3"></div>
+                <div class="absolute bottom-0 left-0 w-48 h-48 bg-white rounded-full opacity-5 transform -translate-x-1/3 translate-y-1/3"></div>
+                
+                <div class="relative z-10 text-center">
+                    <h2 class="text-3xl font-serif font-bold mb-4">让我们一起合作</h2>
+                    <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+                        无论是项目合作、技术交流，还是仅仅想打个招呼，都欢迎随时联系我。我通常会在24小时内回复。
+                    </p>
+                    
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
+                        <a href="mailto:hello@example.com" class="flex items-center gap-3 px-6 py-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
+                            <i class="fas fa-envelope text-accent"></i>
+                            <span>hello@example.com</span>
+                        </a>
+                        <a href="#" class="flex items-center gap-3 px-6 py-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
+                            <i class="fab fa-weixin text-green-400"></i>
+                            <span>WeChat ID</span>
+                        </a>
+                    </div>
+
+                    <div class="flex justify-center space-x-6">
+                        <a href="#" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-all duration-300 transform hover:scale-110">
+                            <i class="fas fa-rss text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-8 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-muted">
+            <p>&copy; 2024 张三. 保留所有权利.</p>
+            <p class="mt-2 md:mt-0">
+                使用 <span class="text-accent">♥</span> 和 Tailwind CSS 构建
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" 
+            class="fixed bottom-8 right-8 w-12 h-12 bg-accent text-white rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary hover:scale-110 z-40 flex items-center justify-center">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    // Animate skill bars if this is the skills section
+                    if (entry.target.querySelector('.skill-bar')) {
+                        entry.target.querySelectorAll('.skill-bar').forEach(bar => {
+                            bar.style.width = bar.getAttribute('data-width');
+                        });
+                    }
+                    
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in-up').forEach((el) => observer.observe(el));
+
+        // Navbar scroll effect
+        let lastScroll = 0;
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            // Navbar transparency
+            if (currentScroll > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.remove('py-4');
+                navbar.classList.add('py-2');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.remove('py-2');
+                navbar.classList.add('py-4');
+            }
+            
+            // Back to top button visibility
+            if (currentScroll > 500) {
+                backToTop.classList.remove('opacity-0', 'invisible');
+                backToTop.classList.add('opacity-100', 'visible');
+            } else {
+                backToTop.classList.remove('opacity-100', 'visible');
+                backToTop.classList.add('opacity-0', 'invisible');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">
+                你好，我是 张三
+            </span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#about"><span class="nav-number">1.1.</span> <span class="nav-text">
+                    
+                    关于我
+                </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#skills"><span class="nav-number">1.2.</span> <span class="nav-text">专业技能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#skills"><span class="nav-number">1.2.1.</span> <span class="nav-text">
+                        
+                        技术能力
+                    </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#skills"><span class="nav-number">1.2.2.</span> <span class="nav-text">
+                        
+                        工具与设计
+                    </span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#skills"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">语言能力</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.</span> <span class="nav-text">经历时间线</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.1.</span> <span class="nav-text">高级前端工程师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.2.</span> <span class="nav-text">全栈开发工程师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.3.</span> <span class="nav-text">全栈开发工程师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.4.</span> <span class="nav-text">初级前端开发</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.5.</span> <span class="nav-text">计算机科学学士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#timeline"><span class="nav-number">1.3.6.</span> <span class="nav-text">计算机科学学士</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#contact"><span class="nav-number">1.4.</span> <span class="nav-text">让我们一起合作</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="可啾黑"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">可啾黑</p>
+  <div class="site-description" itemprop="description">无知即力量，自由即奴役。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/fnuu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;fnuu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:rongx_01@gmail.com" title="E-Mail → mailto:rongx_01@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/396607721" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;396607721" rel="noopener" target="_blank"><i class="fab fa-bilibili fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2022 – 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">可啾黑</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
