@@ -2,26 +2,6 @@
 <search>
   <entry>
     <title>hexo博客食用录</title>
-    <url>/2025/02/hexo%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<p><img src="/images/cover_0.jpg" alt="bj"></p>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
-<p>Npx hexo init .		#初始化hexo</p>
-<p>npm install	#安装依赖</p>
-<p>hexo clean    #清理</p>
-<p>hexo s	#本地预览</p>
-<p>hexo g	#生成静态文件</p>
-<p>hexo d	#部署</p>
-<h3 id="本地Hexo博客部署到Github"><a href="#本地Hexo博客部署到Github" class="headerlink" title="本地Hexo博客部署到Github"></a>本地Hexo博客部署到Github</h3><h4 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h4><ul>
-<li>已安装node.js 和 hexo</li>
-<li>本地hexo博客创建</li>
-<li>Github 已创建仓库，配置完成shh key</li>
-<li>配置本地 _config.yml</li>
-</ul>
-<h3 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h3><p>hexo new page “文章”		#创建“文章”</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo博客食用录</title>
     <url>/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/</url>
     <content><![CDATA[<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
 <p>Npx hexo init .		#初始化hexo</p>
