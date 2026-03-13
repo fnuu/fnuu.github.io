@@ -19,6 +19,8 @@
 <li>配置本地 _config.yml</li>
 </ul>
 <h3 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h3><p>hexo new page “文章”		#创建“文章”</p>
+		#插入图片
+
 ]]></content>
   </entry>
 </search>
