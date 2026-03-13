@@ -3,7 +3,9 @@
   <entry>
     <title>hexo博客食用录</title>
     <url>/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/</url>
-    <content><![CDATA[<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
+    <content><![CDATA[<img src="/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/bj.jpg" class="" title="背景图">
+
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
 <p>Npx hexo init .		#初始化hexo</p>
 <p>npm install	#安装依赖</p>
 <p>hexo clean    #清理</p>
