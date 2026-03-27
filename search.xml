@@ -25,7 +25,11 @@
   <entry>
     <title>为什么使用teamspeak?</title>
     <url>/2026/03/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8teamspeak/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​	从开始游玩联机游戏时，交流就必不可少了。用过QQ，微信，YY，KOOK，OoPZ等国内语音软件之后，感到不尽人意。</p>
+<p><strong>QQ</strong>作为最早使用的软件，已经越来越臃肿，多余的功能和后台的高占用是放弃使用的原因。<br><strong>微信</strong>看似简洁的页面，后台占用也不低，最关键的是语音是有延迟的，体感大概1s~2s左右，故也弃用了。<br><strong>YY</strong>印象最深的就是各种弹窗广告了，功能倒是还行，但朋友基本没用了，软件对于我更像老玩家的回忆，故也弃用了。<br><strong>KOOK</strong>，刚使用时，有降噪功能，语音延迟都还不错，但现在后台占用也不低，还有各种商业化的内容，故也弃用了。<br><strong>Oopz</strong>也类似KOOK，商业化的社交频道我用不到，对比teamspeak，还是后者更喜爱些。(以上仅个人感受，接受讨论。)</p>
+<p>​	所以用过许多的语音软件过后，最终归来还是选择了Teamspeak,字如其名作为团队语音软件。它实现了多人语音交流，还有低占用，低延迟，零广告，非常符合我对软件的使用需求，已用许久十分推荐。</p>
+<p>​	优点讲完，那来说说缺点(<del>假如你能接受就不算是了</del>)，前提是需要一台有公网IP的服务器&#x2F;云服务器(<del>假如你没有的话，但是学生的话，其实也有免费的方法，可以租用半年的云服务器使用，后续会说明</del>)，和一点点愿意折腾动手实践的能力。</p>
+<h3 id="TeamSpeak-是什么"><a href="#TeamSpeak-是什么" class="headerlink" title="TeamSpeak 是什么?"></a>TeamSpeak 是什么?</h3>]]></content>
       <tags>
         <tag>好软推荐</tag>
       </tags>
