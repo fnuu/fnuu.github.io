@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo博客食用录</title>
-    <url>/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/</url>
-    <content><![CDATA[<img src="/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/bj.jpg" class="" title="背景图">
-
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
-<p>Npx hexo init .		#初始化hexo</p>
-<p>npm install	#安装依赖</p>
-<p>hexo clean    #清理</p>
-<p>hexo s	#本地预览</p>
-<p>hexo g	#生成静态文件</p>
-<p>hexo d	#部署</p>
-<h3 id="本地Hexo博客部署到Github"><a href="#本地Hexo博客部署到Github" class="headerlink" title="本地Hexo博客部署到Github"></a>本地Hexo博客部署到Github</h3><h4 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h4><ul>
-<li>已安装node.js 和 hexo</li>
-<li>本地hexo博客创建</li>
-<li>Github 已创建仓库，配置完成shh key</li>
-<li>配置本地 _config.yml</li>
-</ul>
-<h3 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h3><p><code>hexo new page &quot;文章&quot;</code>		#创建“文章”</p>
-<p><code>&#123;% asset_img 图片名 图片替换名称 %&#125;</code>	#插入图片</p>
-]]></content>
-  </entry>
-  <entry>
     <title>为什么使用teamspeak?</title>
     <url>/2026/03/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8teamspeak/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​	从开始游玩联机游戏时，交流就必不可少了。用过QQ，微信，YY，KOOK，OoPZ等国内语音软件之后，感到不尽人意。</p>
@@ -133,5 +111,27 @@
       <tags>
         <tag>好软推荐</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hexo博客食用录</title>
+    <url>/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/</url>
+    <content><![CDATA[<img src="/2025/02/hexo%E9%A3%9F%E7%94%A8%E5%BD%95/bj.jpg" class="" title="背景图">
+
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>mkdir blog		#创建目录blog</p>
+<p>Npx hexo init .		#初始化hexo</p>
+<p>npm install	#安装依赖</p>
+<p>hexo clean    #清理</p>
+<p>hexo s	#本地预览</p>
+<p>hexo g	#生成静态文件</p>
+<p>hexo d	#部署</p>
+<h3 id="本地Hexo博客部署到Github"><a href="#本地Hexo博客部署到Github" class="headerlink" title="本地Hexo博客部署到Github"></a>本地Hexo博客部署到Github</h3><h4 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h4><ul>
+<li>已安装node.js 和 hexo</li>
+<li>本地hexo博客创建</li>
+<li>Github 已创建仓库，配置完成shh key</li>
+<li>配置本地 _config.yml</li>
+</ul>
+<h3 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h3><p><code>hexo new page &quot;文章&quot;</code>		#创建“文章”</p>
+<p><code>&#123;% asset_img 图片名 图片替换名称 %&#125;</code>	#插入图片</p>
+]]></content>
   </entry>
 </search>
